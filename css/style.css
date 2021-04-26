@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    background-color: #DFDFDF;
+}
+
+
+
+
+
+/*----------[Desktop]----------*/
+.content{
+  width: 100%;
+}
+.img{
+  width: 100%;
+}
+.banner{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+.banner .info{
+  position: absolute;
+  left: 50%;
+  bottom: 80%;
+  width: 400px;
+}
+
+
+.text{
+  width: 100%;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+
+
+/*----------[Tablet/Phone]----------*/
+@media (max-width: 750px){
+
+}
