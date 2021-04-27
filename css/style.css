@@ -20,6 +20,35 @@ html {
  width: 100%;
 }
 
+/*-[Footer]-*/
+footer{
+  display: flex;
+  
+  background-color: #555;
+  height: 3rem;
+  color: white;
+}
+
+footer p{
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+footer a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  align-self: right;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #111;
+}
+
 .button-link{
   /* display: flex; */
   text-decoration: none;
