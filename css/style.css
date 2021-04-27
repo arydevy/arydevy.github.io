@@ -2,6 +2,9 @@
 
 * {
     font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -9,60 +12,113 @@ html {
 }
 
 
-
-
-
 /*----------[Desktop]----------*/
-.content{
-  width: 100%;
-}
+
+
+/*-[Main]-*/
 .img{
-  width: 100%;
-}
-.banner{
-  position: relative;
-  text-align: justify;
-  color: white;
-  
-}
-
-.banner .info{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom:560%;
-  left: 50%;
-  width: 400px;
-}
-
-
-.text{
-  width: 100%;
-}
-
-h1{
-  font-size: 3rem;
+ width: 100%;
 }
 
 .button-link{
-  display: inline-block;
+  /* display: flex; */
   text-decoration: none;
   background-color: #333;
   border-radius: 3px;
-  padding: 1rem 2rem;
+  padding: 1.5% 2.5%;
   color:white;
   border-top: 2rem;
   align-self: center;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
   margin-top: 1.3rem;
 }
+
 .button-link:hover{
   background-color: #555;
 }
 
 
+/*-[Hero]-*/
+.hero{
+  padding: 0;
+  width: 100%;
+  display:flex;
+  position: relative;
+}
+
+.hero .img{
+  width: 50%;
+  height: 40rem;
+}
+
+.hero .content{
+  position:relative;
+  padding-top: 20%;
+}
+
+.content{
+  width: 50%;
+
+}
+
+.content .img{
+  width: 50%;
+
+}
+
+
+.content h1{
+  font-size: 3.5rem;
+  text-align: left;
+}
+.content p{
+  
+  width: 55%;
+  margin-top: 0.5rem;
+}
+
+.content .button-link{
+  margin-left: 6rem;
+
+}
+
+/*-[Projects]-*/
+
+
+
 
 /*----------[Tablet/Phone]----------*/
 @media (max-width: 750px){
+  .hero{
+    flex-direction: column;
+    align-self: center;
+  }
+  .hero .img{
+  width: 100%;
+  }
+  .hero .content{
+  width: 100%;
+  padding-top: 0;
+  padding-left: 4.5rem;
+  }
+
+  .content h1{
+  font-size: 1.9rem;
+  }
+  
+  .content p{
+    padding-left: 0.05rem;
+  }
+  
+  .content .button-link{
+  margin-left: 1rem;
+  height: 3rem;
+  width: 10rem;
+  padding-top:1rem;
+
+  }
 
 }
