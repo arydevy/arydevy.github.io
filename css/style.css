@@ -20,35 +20,6 @@ html {
  width: 100%;
 }
 
-/*-[Footer]-*/
-footer{
-  display: flex;
-  
-  background-color: #555;
-  height: 3rem;
-  color: white;
-}
-
-footer p{
-  width: 100%;
-  padding-top: 1rem;
-  padding-left: 1rem;
-}
-
-footer a{
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  align-self: right;
-}
-
-footer a:hover{
-  text-decoration: underline;
-  color: #111;
-}
-
 .button-link{
   /* display: flex; */
   text-decoration: none;
@@ -72,6 +43,8 @@ footer a:hover{
 
 /*-[Hero]-*/
 .hero{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   padding: 0;
   width: 100%;
   display:flex;
@@ -116,6 +89,35 @@ footer a:hover{
 
 /*-[Projects]-*/
 
+/*-[Footer]-*/
+footer{
+  display: flex;
+  
+  background-color: #555;
+  height: 3rem;
+  color: white;
+}
+
+footer p{
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+footer a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  align-self: right;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #111;
+}
+
 
 
 
@@ -124,6 +126,8 @@ footer a:hover{
   .hero{
     flex-direction: column;
     align-self: center;
+    margin-top: 0;
+    padding-top: 0;
   }
   .hero .img{
   width: 100%;
@@ -131,7 +135,8 @@ footer a:hover{
   .hero .content{
   width: 100%;
   padding-top: 0;
-  padding-left: 4.5rem;
+  padding-left: 6rem;
+  text-align: left;
   }
 
   .content h1{
@@ -143,11 +148,21 @@ footer a:hover{
   }
   
   .content .button-link{
-  margin-left: 1rem;
+  margin-left: .1rem;
   height: 3rem;
   width: 10rem;
   padding-top:1rem;
 
+  }
+
+  footer{
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  }
+
+  footer a{
+    padding-left: 1rem;
   }
 
 }
