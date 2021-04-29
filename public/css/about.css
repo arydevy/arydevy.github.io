@@ -49,3 +49,40 @@ body{
   margin-left: 1rem; 
   margin-top: 1.44rem;
 }
+
+
+@media (max-width: 750px){
+  .skils{
+    flex-direction: column;
+  }
+  .name{
+    width: 100%;
+    font-size: .5rem;
+  }
+
+.section-B .content{
+  width: 100%;
+  margin-left: 0;
+}
+
+.section-B .content h1{
+  font-size: 1rem;
+}
+
+.section-B .content p{
+  margin-left: 0;
+  font-size: .8rem;
+}
+
+.skils{
+  padding: 5rem 0;
+  width: 100%;
+  display: block;
+}
+.skils ul{
+  width: 100%;
+  list-style: none;
+  margin-left: .8rem;
+}
+
+}

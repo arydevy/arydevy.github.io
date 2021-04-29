@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&display=swap');
+
+body{
+  font-family: 'Noto Serif TC', serif;
+}
+
+.projects{
+  width: 100%;
+
+}
+
+
+button{
+  background-color: #333;
+  border: none;
+  border-radius: .7rem;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+
+  margin: 1rem;
+}
+
+button:hover{
+  background-color: #555;
+}
+
+.container{
+width: 100%;
+margin: 2rem 5rem;
+}
+
+.project{
+  width: 400px;
+  display: inline-block;
+  
+}
+
+.project .info{
+  opacity: 90%;
+  position: absolute;
+  width: 20%;
+  height: 17rem;
+  background-color: black;
+  color: white;
+  display: none;
+}
+
+.project:hover .info{
+  display: block;
+}
+
